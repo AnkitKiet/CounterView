@@ -38,7 +38,7 @@ public class CounterView extends LinearLayout implements View.OnClickListener {
     }
 
     private void init(Context context, AttributeSet attrs, int defStyle) {
-        inflate(context, R.layout.activity_main, this);
+        inflate(context, R.layout.item_counter, this);
         this.rootView = (LinearLayout) findViewById(R.id.root_view);
         this.itemCounterValue = (TextView) findViewById(R.id.item_counter_value);
         this.incButton = (Button) findViewById(R.id.inc_button);
