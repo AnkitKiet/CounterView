@@ -1,8 +1,8 @@
-# EmojiConverter
+# CounterView
 This is an Android library for UI which can be used as a counter view as in Flipkart, Shopclues, Myntra etc. This is highly customizable and is very simple to integrate.
 ## Preview
 
-![Sample](/ezgif-4-63891ff6bd.gif?raw=true "Preview")
+![Sample](/screenshot.gif?raw=true "Preview")
 
 ## Installation
 ### Gradle
