@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/root_view"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="1dp"
     android:weightSum="1.5">
 
     <Button
         android:id="@+id/dec_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:layout_weight="0.5"
         android:background="@color/colorPrimary"
         android:text="-"
@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/item_counter_value"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:text="1"
@@ -28,8 +28,8 @@
 
     <Button
         android:id="@+id/inc_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:layout_weight="0.5"
         android:background="@color/colorPrimaryDark"
         android:text="+"

@@ -80,8 +80,8 @@ public class CounterView extends LinearLayout implements View.OnClickListener {
     public CounterView setColor(@ColorRes int left, @ColorRes int right, @ColorRes int text) {
 
         this.incButton.setBackgroundColor(getColor(right));
-        this.decButton.setBackgroundColor(getColor(right));
-        this.itemCounterValue.setBackgroundColor(getColor(text));
+        this.decButton.setBackgroundColor(getColor(left));
+        this.itemCounterValue.setTextColor(getColor(text));
         return this;
     }
 
