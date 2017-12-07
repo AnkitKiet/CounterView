@@ -1,6 +1,8 @@
 # CounterView
 This is an Android library for UI which can be used as a counter view as in Flipkart, Shopclues, Myntra etc. This is highly customizable and is very simple to integrate.
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CounterView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6532)
+
 ## Preview
 
 ![Sample](/screenshot.gif?raw=true "Preview")
