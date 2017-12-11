@@ -75,6 +75,8 @@ paste below code in layout xml file.
         android:layout_height="wrap_content" />
 ```
 
+### Want to Contribute? 
+Fork this repo and contribute by making a making a Pull Request. Enjoy Coding :)
 
 ## License
 ```
