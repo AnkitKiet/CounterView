@@ -20,7 +20,7 @@ allprojects {
 Add a dependency
 ```
 dependencies {
-        compile 'com.github.AnkitKiet:CounterView:1.2'
+	      compile 'com.github.AnkitKiet:CounterView:1.4'
 	}
 ```
 
@@ -39,7 +39,7 @@ Add a dependency
 <dependency>
 	    <groupId>com.github.AnkitKiet</groupId>
 	    <artifactId>CounterView</artifactId>
-	    <version>1.2</version>
+	    <version>1.4</version>
 </dependency>
 ```
 
