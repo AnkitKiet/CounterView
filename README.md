@@ -1,8 +1,11 @@
-# EmojiConverter
+# CounterView
 This is an Android library for UI which can be used as a counter view as in Flipkart, Shopclues, Myntra etc. This is highly customizable and is very simple to integrate.
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CounterView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6532)
+
 ## Preview
 
-![Sample](/ezgif-4-63891ff6bd.gif?raw=true "Preview")
+![Sample](/screenshot.gif?raw=true "Preview")
 
 ## Installation
 ### Gradle
@@ -25,11 +28,11 @@ dependencies {
 Add below code for Maven installation
 ```
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    	<url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 Add a dependency
 ```
@@ -37,7 +40,7 @@ Add a dependency
 	    <groupId>com.github.AnkitKiet</groupId>
 	    <artifactId>CounterView</artifactId>
 	    <version>1.2</version>
-	</dependency>
+</dependency>
 ```
 
 ## How To Use
@@ -53,7 +56,7 @@ paste below code in java file
             public void onIncClick(String s) {
 
                 Toast.makeText(MainActivity.this, s, Toast.LENGTH_SHORT).show();
-//    Perform Anything
+		//    Perform Anything
             }
 
             @Override
@@ -70,9 +73,10 @@ paste below code in layout xml file.
         android:id="@+id/cv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
 ```
 
+### Want to Contribute? 
+Fork this repo and contribute by making a making a Pull Request. Enjoy Coding :)
 
 ## License
 ```
