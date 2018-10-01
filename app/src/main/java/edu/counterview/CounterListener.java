@@ -6,7 +6,7 @@ package edu.counterview;
 
 
 
-public interface CounterListner {
+public interface CounterListener {
     void onIncClick(String value);
 
     void onDecClick(String value);
