@@ -11,13 +11,14 @@ import android.widget.TextView;
 
 public class CounterView extends LinearLayout implements View.OnClickListener {
 
-
     public static final String TAG = CounterView.class.getSimpleName();
     private TextView itemCounterValue;
     private Button incButton;
     private Button decButton;
     private LinearLayout rootView;
     private CounterListener listener;
+
+    private boolean isMinusSupported;
 
     public CounterView(Context context) {
         super(context);
@@ -83,6 +84,11 @@ public class CounterView extends LinearLayout implements View.OnClickListener {
         return getContext().getResources().getColor(colorRes);
     }
 
+    public CounterView setMinus(boolean isSupported) {
+        this.isMinusSupported = isSupported;
+        return this;
+    }
+
     @Override
     public void onClick(View view) {
         int value = Integer.parseInt(this.itemCounterValue.getText().toString());
@@ -94,7 +100,7 @@ public class CounterView extends LinearLayout implements View.OnClickListener {
                 this.listener.onIncClick(this.itemCounterValue.getText().toString());
         } else if (i == R.id.dec_button) {
             value--;
-            if (value < 0) {
+            if (value < 0 && !isMinusSupported) {
                 value = 0;
             }
             this.itemCounterValue.setText(String.valueOf(value));
