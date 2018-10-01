@@ -17,10 +17,16 @@
 
     <TextView
         android:id="@+id/item_counter_value"
-        android:layout_width="25dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_weight="0.5"
-        android:text="@string/decrement"
+        android:gravity="center"
+        android:minWidth="32dp"
+        android:text="@string/default_value"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000"
