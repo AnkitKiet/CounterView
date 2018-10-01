@@ -17,7 +17,7 @@ public class CounterView extends LinearLayout implements View.OnClickListener {
     private Button incButton;
     private Button decButton;
     private LinearLayout rootView;
-    private CounterListner listener;
+    private CounterListener listener;
 
 
     public CounterView(Context context) {
@@ -61,7 +61,7 @@ public class CounterView extends LinearLayout implements View.OnClickListener {
         return this;
     }
 
-    public CounterView setCounterListener(CounterListner counterListener) {
+    public CounterView setCounterListener(CounterListener counterListener) {
         listener = counterListener;
         return this;
     }
