@@ -12,7 +12,7 @@
         android:layout_height="25dp"
         android:layout_weight="0.5"
         android:background="@color/colorPrimary"
-        android:text="-"
+        android:text="@string/decrement"
         android:textColor="#ffffff" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_width="25dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:text="1"
+        android:text="@string/decrement"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000"
@@ -32,7 +32,7 @@
         android:layout_height="25dp"
         android:layout_weight="0.5"
         android:background="@color/colorPrimaryDark"
-        android:text="+"
+        android:text="@string/increment"
         android:textColor="#ffffff" />
 
 
